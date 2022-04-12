@@ -1,0 +1,103 @@
+mob_tracker:
+  item:
+    material: COMPASS
+    name: "&c&lMob Tracker"
+    lore:
+      - "&7Tracks all mob kills."
+      - "&c- Place scroll on item to apply."
+    glowing: true
+
+  lore-on-item:
+    - "&cMobs killed: %mob_kills%"
+
+  applicable-item-keywords: # Instead of matching material names directly,
+    - "SWORD"
+    - "AXE"
+    - "PICKAXE"
+    - "HOE"
+    - "SHOVEL"
+    - "BOW"
+
+
+
+player_kill_tracker:
+  item:
+    material: COMPASS
+    name: "&e&lKill Tracker"
+    lore:
+      - "&7Tracks all member kills."
+      - "&e- Place scroll on item to apply."
+    glowing: true
+
+  lore-on-item:
+    - "&ePlayers killed: %player_kills%"
+
+  applicable-item-keywords: # Instead of matching material names directly,
+    - "SWORD"
+    - "AXE"
+    - "PICKAXE"
+    - "HOE"
+    - "SHOVEL"
+    - "BOW"
+
+block_break_tracker:
+  item:
+    material: COMPASS
+    name: "&9&lBlock Tracker"
+    lore:
+      - "&7Tracks all member kills."
+      - "&e- Place scroll on item to apply."
+    glowing: true
+
+  lore-on-item:
+    - "&9Blocks broken: %block_breaks%"
+
+  applicable-item-keywords: # Instead of matching material names directly,
+    - "SWORD"
+    - "AXE"
+    - "PICKAXE"
+    - "HOE"
+    - "SHOVEL"
+    - "BOW"
+
+unbreakable:
+  item:
+    material: ANVIL
+    name: "&c&lImmortal Scroll"
+    lore:
+      - "&7Make your item an immortal."
+      - "&7This means that it will never break."
+      - "&e- Place scroll on item to apply."
+    glowing: true
+  lore-on-item:
+    - "&c&lImmortal"
+
+  applicable-item-keywords: # Instead of matching material names directly,
+    - "SWORD"
+    - "AXE"
+    - "PICKAXE"
+    - "HOE"
+    - "SHOVEL"
+    - "BOW"
+
+keep_on_death:
+  chance: 20
+  item:
+    material: BONE
+    name: "&e&lRevival Bone"
+    lore:
+      - "&7This gives your item a 20% chance"
+      - "&7to receive it back once you died."
+      - "&e- Place scroll on item to apply."
+    glowing: true
+
+  lore-on-item:
+    - "&e&lRevival Bone"
+
+  applicable-item-keywords: # Instead of matching material names directly,
+    - "SWORD"
+    - "AXE"
+    - "PICKAXE"
+    - "HOE"
+    - "SHOVEL"
+    - "BOW"

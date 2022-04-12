@@ -1,0 +1,9 @@
+messages:
+  prefix: "&e&lCustomScrolls &7»&f"
+
+  no-permission: "%prefix% &cNo permission."
+  give-scroll-usage: "%prefix% &cUsage: /scroll give <player> <scroll> [amount]"
+  invalid-scroll: "%prefix% &cInvalid scroll."
+  invalid-player: "%prefix% &cInvalid player."
+  invalid-amount: "%prefix% &cInvalid amount."
+  give-scroll: "%prefix% &7You gave &e%player% &7a scroll."

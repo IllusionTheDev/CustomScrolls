@@ -1,0 +1,10 @@
+name: CustomScrolls
+version: '${version}'
+main: me.illusion.customscrolls.CustomScrollsPlugin
+api-version: 1.13
+depend: [ ProtocolLib ]
+
+commands:
+  scroll:
+    usage: /<command> <scroll> <player>
+    description: Gives a scroll
